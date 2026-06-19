@@ -33,7 +33,7 @@ export default function LedgerApp() {
   };
 
   return (
-    <div className="p-6 max-w-4xl mx-auto bg-base-200 min-h-screen rounded-xl shadow-lg">
+    <div className="p-6 max-w-4xl mx-auto bg-base-200 min-h-screen rounded-xl shadow-lg text-[4vw] sm:text-[3vw] md:text-[2.5vw]">
       <h1 className="text-3xl font-bold text-center mb-6 text-primary">
         📊 লেন-দেন ট্র্যাকার
       </h1>

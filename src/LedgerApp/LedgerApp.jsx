@@ -56,7 +56,7 @@ export default function LedgerApp() {
       {/* ইনপুট ফর্ম */}
       <form
         onSubmit={handleAdd}
-        className="grid grid-cols-4 md:grid-cols-4 gap-4 bg-base-100 p-4 rounded-box shadow mb-6"
+        className="grid grid-cols-4 md:grid-cols-4 gap-4 bg-base-100 p-4 rounded-box shadow mb-6 text-[4vw] sm:text-[3vw] md:text-[2.5vw]"
       >
         <input
           type="text"
